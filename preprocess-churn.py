@@ -30,7 +30,7 @@ if __name__ == "__main__":
     base_dir = "/opt/ml/processing"
     #Read Data
     df = pd.read_csv(
-        f"{base_dir}/input/storedata_total.csv"
+        f"{base_dir}/input/BASE_FUGA.csv"
     )
 
     # Convertir variables categóricas numéricas a tipo object
